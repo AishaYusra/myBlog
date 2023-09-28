@@ -1,0 +1,75 @@
+header a {
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 16px 32px;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+}
+
+.card label {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.card input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.card button {
+    width: 100%;
+    max-width: 200px;
+    height: 42px;
+    background-color: darkred;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(136, 81, 81);
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h1,
+form p,
+form a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.message {
+    text-align: left;
+    font-size: 14px;
+    color: red;
+}

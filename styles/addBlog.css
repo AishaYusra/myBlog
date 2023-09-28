@@ -44,6 +44,11 @@ form button {
     outline: none;
     border: none;
     border-radius: 5px;
-    /* padding: 16px; */
-    width: 300px;
+    padding: 8px 16px;
+    width: 80px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(136, 81, 81);
 }

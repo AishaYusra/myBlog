@@ -47,6 +47,57 @@ header button p {
     margin-right: 12px;
 }
 
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.icon svg path {
+    fill: white;
+}
+
+.icon-true {
+    transform: rotateZ('180deg');
+}
+
+.dropdown-false {
+    display: none;
+}
+
+.dropdown-true {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 15px;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    z-index: 1;
+    box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+}
+
+.dropdown a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color: black;
+}
+
+.dropdown a:hover {
+    transform: scale(1.1);
+}
+
+.dropdown a:last-child {
+    margin: 0;
+}
+
 
 
 
@@ -54,7 +105,7 @@ header button p {
 
     header {
         padding: 8px 16px;
-        height: 70px;
+        height: 90px;
     }
 
     header h1,
